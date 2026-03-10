@@ -35,11 +35,18 @@ Today, our security team intercepted and neutralized a cyberattack targeting one
 
 ## 4. Artifacts and Evidence
 
+All screenshots are bundled in this PDF for easy submission:
+
+- [Task 5 Screenshots PDF](Task_5_Screenshots.pdf)
+
 **1. Attack Execution (Metasploit):**
-![Metasploit Shell](metasploit_attack.png)
+![Metasploit Shell](screenshots/metasploit_attack.png)
 
-**2. Alert Detection (Wazuh):**
-![Wazuh Alert](wazuh_detection.png)
+**2. Failed FTP Login Attempt:**
+![FTP Failed Login](screenshots/ftp_failed.png)
 
-**3. Threat Containment (CrowdSec & Ping Fail):**
-![CrowdSec Block](crowdsec_block.png)
+**3. Alert Detection (Wazuh):**
+![Wazuh Alert](screenshots/wazuh_detection.png)
+
+**4. Threat Containment (CrowdSec & Ping Fail):**
+![CrowdSec Block](screenshots/crowdsec_block.png)
