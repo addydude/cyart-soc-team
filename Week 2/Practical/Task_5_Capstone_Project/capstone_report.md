@@ -10,7 +10,7 @@ Wazuh successfully detected the anomalous behavior originating from the attacker
 ---
 
 ## 2. Incident Response Report
-*(SANS Template format)*
+
 
 **Executive Summary:** On March 6, 2026, a critical security incident occurred involving the direct exploitation of a known legacy vulnerability (vsftpd v2.3.4 backdoor) on a publicly exposed Metasploitable2 server. The hostile actor successfully leveraged this vulnerability to gain unauthorized root-level command execution, posing a severe organizational risk. Our Security Operations Center immediately detected the anomalous activity via Wazuh SIEM alerts. The threat was swiftly contained by isolating the compromised virtual machine and permanently blocking the malicious source IP address using CrowdSec, effectively preventing any lateral movement, persistence establishment, or data exfiltration.
 
@@ -35,11 +35,18 @@ Today, our security team intercepted and neutralized a cyberattack targeting one
 
 ## 4. Artifacts and Evidence
 
+All screenshots are bundled in this PDF for easy submission:
+
+- [Task 5 Screenshots PDF](Task_5_Screenshots.pdf)
+
 **1. Attack Execution (Metasploit):**
-![Metasploit Shell](metasploit_attack.png)
+![Metasploit Shell](screenshots/metasploit_attack.png)
 
-**2. Alert Detection (Wazuh):**
-![Wazuh Alert](wazuh_detection.png)
+**2. Failed FTP Login Attempt:**
+![FTP Failed Login](screenshots/ftp_failed.png)
 
-**3. Threat Containment (CrowdSec & Ping Fail):**
-![CrowdSec Block](crowdsec_block.png)
+**3. Alert Detection (Wazuh):**
+![Wazuh Alert](screenshots/wazuh_detection.png)
+
+**4. Threat Containment (CrowdSec & Ping Fail):**
+![CrowdSec Block](screenshots/crowdsec_block.png)
