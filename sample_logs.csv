@@ -1,0 +1,51 @@
+timestamp,event_id,event_type,source_ip,destination_ip,bytes_out,notes
+2025-08-18 11:59:01,4625,failed_login,192.168.1.100,192.168.1.10,0,Failed login attempt
+2025-08-18 11:59:05,4625,failed_login,192.168.1.100,192.168.1.10,0,Repeated login failure
+2025-08-18 11:59:10,4625,failed_login,192.168.1.101,192.168.1.10,0,Invalid password
+2025-08-18 11:59:15,4625,failed_login,192.168.1.102,192.168.1.10,0,User authentication failed
+2025-08-18 11:59:20,4625,failed_login,192.168.1.103,192.168.1.10,0,Suspicious login
+2025-08-18 11:59:25,4625,failed_login,192.168.1.104,192.168.1.10,0,Brute force attempt suspected
+2025-08-18 11:59:30,4625,failed_login,192.168.1.105,192.168.1.10,0,Failed admin login
+2025-08-18 11:59:35,4625,failed_login,192.168.1.106,192.168.1.10,0,Authentication error
+2025-08-18 11:59:40,4625,failed_login,192.168.1.107,192.168.1.10,0,Repeated login failure
+2025-08-18 11:59:45,4625,failed_login,192.168.1.108,192.168.1.10,0,Incorrect password
+2025-08-18 12:00:00,,outbound_connection,192.168.1.100,8.8.8.8,120000,Suspicious DNS request
+2025-08-18 12:00:05,,outbound_connection,192.168.1.101,1.1.1.1,90000,External connection
+2025-08-18 12:00:10,,outbound_connection,192.168.1.102,142.250.190.78,150000,HTTP traffic
+2025-08-18 12:00:15,,outbound_connection,192.168.1.103,8.8.4.4,85000,DNS query
+2025-08-18 12:00:20,,outbound_connection,192.168.1.104,104.244.42.1,76000,External API request
+2025-08-18 12:00:25,,outbound_connection,192.168.1.105,172.217.160.142,95000,Normal browsing
+2025-08-18 12:00:30,,outbound_connection,192.168.1.106,151.101.1.69,88000,Web request
+2025-08-18 12:00:35,,outbound_connection,192.168.1.107,185.199.108.153,92000,GitHub traffic
+2025-08-18 12:00:40,,outbound_connection,192.168.1.108,23.217.138.110,98000,HTTPS traffic
+2025-08-18 12:00:45,,outbound_connection,192.168.1.109,34.102.136.180,87000,Cloud service request
+2025-08-18 12:01:00,,file_transfer,192.168.1.100,203.0.113.5,1500000,Large outbound transfer
+2025-08-18 12:01:05,,file_transfer,192.168.1.101,203.0.113.6,1300000,Possible data exfiltration
+2025-08-18 12:01:10,,file_transfer,192.168.1.102,203.0.113.7,1100000,Large upload detected
+2025-08-18 12:01:15,,file_transfer,192.168.1.103,203.0.113.8,2000000,High-volume transfer
+2025-08-18 12:01:20,,file_transfer,192.168.1.104,203.0.113.9,1700000,Suspicious upload
+2025-08-18 12:01:25,,file_transfer,192.168.1.105,203.0.113.10,1800000,Data transfer spike
+2025-08-18 12:01:30,,file_transfer,192.168.1.106,203.0.113.11,2100000,Potential exfiltration
+2025-08-18 12:01:35,,file_transfer,192.168.1.107,203.0.113.12,1600000,Large outbound activity
+2025-08-18 12:01:40,,file_transfer,192.168.1.108,203.0.113.13,1400000,Data transfer anomaly
+2025-08-18 12:01:45,,file_transfer,192.168.1.109,203.0.113.14,1550000,Unusual network traffic
+2025-08-18 12:02:00,,outbound_connection,192.168.1.110,8.8.8.8,87000,Normal DNS
+2025-08-18 12:02:05,,outbound_connection,192.168.1.111,1.1.1.1,76000,Normal request
+2025-08-18 12:02:10,,outbound_connection,192.168.1.112,142.250.190.78,92000,HTTPS traffic
+2025-08-18 12:02:15,,outbound_connection,192.168.1.113,8.8.4.4,85000,External DNS
+2025-08-18 12:02:20,,outbound_connection,192.168.1.114,151.101.1.69,90000,Web traffic
+2025-08-18 12:02:25,,outbound_connection,192.168.1.115,185.199.108.153,88000,GitHub access
+2025-08-18 12:02:30,,outbound_connection,192.168.1.116,23.217.138.110,94000,HTTPS connection
+2025-08-18 12:02:35,,outbound_connection,192.168.1.117,34.102.136.180,81000,Cloud request
+2025-08-18 12:02:40,,outbound_connection,192.168.1.118,104.244.42.1,86000,API traffic
+2025-08-18 12:02:45,,outbound_connection,192.168.1.119,172.217.160.142,91000,Normal browsing
+2025-08-18 12:03:00,,outbound_connection,192.168.1.120,8.8.8.8,88000,Normal DNS
+2025-08-18 12:03:05,,outbound_connection,192.168.1.121,1.1.1.1,87000,External request
+2025-08-18 12:03:10,,outbound_connection,192.168.1.122,142.250.190.78,90000,HTTPS traffic
+2025-08-18 12:03:15,,outbound_connection,192.168.1.123,8.8.4.4,92000,DNS lookup
+2025-08-18 12:03:20,,outbound_connection,192.168.1.124,151.101.1.69,87000,Web access
+2025-08-18 12:03:25,,outbound_connection,192.168.1.125,185.199.108.153,94000,GitHub traffic
+2025-08-18 12:03:30,,outbound_connection,192.168.1.126,23.217.138.110,95000,HTTPS traffic
+2025-08-18 12:03:35,,outbound_connection,192.168.1.127,34.102.136.180,89000,Cloud connection
+2025-08-18 12:03:40,,outbound_connection,192.168.1.128,104.244.42.1,91000,External API
+2025-08-18 12:03:45,,outbound_connection,192.168.1.129,172.217.160.142,87000,Normal browsing
