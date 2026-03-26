@@ -1,0 +1,14 @@
+Question,Answer,
+Why was the email opened?,User clicked a malicious link in a phishing email.,
+Why was the link clicked?,The email appeared legitimate and urgent.,
+Why did it appear legitimate?,"Email filtering did not flag it effectively, and the user did not verify the sender.",
+Why was it not flagged or verified?,Weak email filtering rules and lack of user awareness training.,
+Root Cause,Inadequate email security controls and insufficient phishing awareness training.,
+,,
+,,
+,,
+Metric,Value,Formula/Meaning
+Detection Time,2 hours,Time taken to identify the phishing incident
+Response Time,4 hours,Time taken to contain and respond to the incident
+MTTD,2 hours,Mean Time to Detect
+MTTR,4 hours,Mean Time to Respond

@@ -1,0 +1,6 @@
+
+## Playbook Summary 
+
+A phishing-response playbook was designed for automated incident handling using Splunk Phantom. The workflow checks IP reputation, blocks confirmed malicious IPs through CrowdSec, and creates a case in TheHive. The playbook was logically validated through simulation, demonstrating a structured and efficient approach to automated SOC incident response.
+
+---

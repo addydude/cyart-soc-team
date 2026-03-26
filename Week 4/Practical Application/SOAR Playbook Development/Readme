@@ -1,0 +1,46 @@
+# 2. SOAR Playbook Development
+
+## Activities
+Designed and logically tested a SOAR playbook for automated phishing incident response using Splunk Phantom, TheHive, and CrowdSec integration concepts. The workflow was prepared to reduce manual effort and improve response consistency in a simulated SOC environment.
+
+## Tools Used
+- Splunk Phantom  
+- TheHive  
+- CrowdSec  
+- Wazuh  
+- Google Docs  
+
+## Tasks Performed
+- Designed a phishing-response playbook workflow  
+- Defined decision points for IP reputation validation  
+- Mapped automated response actions such as IP blocking  
+- Planned case creation in TheHive for incident tracking  
+- Validated the workflow through simulated execution steps  
+
+---
+
+## Playbook Logic
+
+**Trigger:** Phishing alert generated in Wazuh  
+
+**Workflow:**
+1. Check suspicious IP reputation  
+2. If malicious, block IP via CrowdSec  
+3. Create incident ticket in TheHive  
+4. Record actions for analyst review  
+
+---
+
+## Simulated Playbook Test
+
+| Playbook Step          | Status  | Notes                                      |
+|-----------------------|--------|--------------------------------------------|
+| Check IP Reputation   | Success | IP identified as suspicious/malicious      |
+| Block IP              | Success | Simulated CrowdSec blocking action         |
+| Create TheHive Case   | Success | Incident case assumed generated            |
+| Analyst Review        | Success | Workflow marked complete                   |
+
+
+## Note
+
+> Due to device specs limitation, I validated the playbook through simulated workflow testing rather than full production deployment.

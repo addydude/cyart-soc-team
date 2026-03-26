@@ -1,0 +1,45 @@
+# Adversary Emulation Practice
+
+## Objective
+To simulate adversary tactics, techniques, and procedures (TTPs) using MITRE Caldera and evaluate SOC detection capabilities through Wazuh monitoring and alerting.
+
+## Tools Used
+- MITRE Caldera
+- Wazuh
+
+## Activities Performed
+
+### 1. Emulation Simulation
+- Set up MITRE Caldera to emulate adversary behavior
+- Simulated **T1566 – Spearphishing**
+- Executed the emulated attack scenario on the test environment
+- Monitored endpoint and network activity during the simulation
+
+### 2. Detection Monitoring
+- Observed alerts and logs in Wazuh during the emulation
+- Reviewed suspicious events generated during execution
+- Correlated Wazuh detections with the simulated adversary activity
+
+## Adversary Emulation Results
+
+| Timestamp           | TTP   | Detection Status | Alert Type                          |
+|---------------------|-------|------------------|-------------------------------------|
+| 2026-03-26 12:47:00 | T1566 | Detected         | Suspicious Email Attachment Access  |
+| 2026-03-26 12:49:00 | T1566 | Detected         | Unusual Script Execution            |
+| 2026-03-26 12:50:00 | T1566 | Detected         | Outbound Connection to External IP  |
+
+## Observations
+- Wazuh generated alerts at multiple stages of the emulation
+- The first alert indicated suspicious attachment-related activity
+- The second alert captured unexpected script execution on the endpoint
+- The final alert showed outbound communication to an external host
+- The collected events aligned with behaviors commonly associated with phishing-based intrusion attempts
+
+## Analysis
+The adversary emulation exercise showed that Wazuh was able to detect multiple indicators associated with the simulated spearphishing scenario. Alert coverage was observed across initial access, execution, and network activity stages. This suggests that the monitoring environment is capable of identifying common attacker behavior patterns generated during adversary emulation. The detections were useful for validating SOC visibility, though further tuning may be required to improve event context, reduce false positives, and strengthen coverage for more stealthy phishing techniques.
+
+## Conclusion
+This exercise demonstrated that the SOC environment can successfully detect important activities linked to spearphishing emulation. The alerts confirmed visibility into suspicious attachment access, script execution, and external communication. Overall, the practice helped validate the effectiveness of the current monitoring setup and highlighted opportunities for further improvement in detection engineering.
+
+## Emulation Report
+The adversary emulation exercise was performed using MITRE Caldera to simulate the T1566 spearphishing technique and evaluate SOC detection performance. During the simulation, Wazuh generated alerts for suspicious email attachment access, unusual script execution, and outbound communication to an external IP address. These detections showed that the monitoring setup has visibility into key phases of the emulated attack chain. The exercise confirmed the usefulness of Wazuh for identifying common phishing-related behaviors. At the same time, it highlighted the need for continued tuning and correlation improvement to strengthen detection coverage against more advanced and evasive attack methods.

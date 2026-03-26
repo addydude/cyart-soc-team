@@ -1,0 +1,46 @@
+# Security Metrics and Executive Reporting
+
+## Objective
+To evaluate SOC performance using key security metrics and present findings through structured analysis and executive-level reporting.
+
+## Tools Used
+- Elastic Security
+- Google Sheets
+- Google Docs
+
+---
+
+## Incident Data
+
+| INCIDENT          | DETECTION TIME | RESPONSE TIME | FALSE POSITIVE | DWELL TIME |
+|------------------|---------------|--------------|----------------|-----------|
+| Ransomware       | 3 Hours       | 6 Hours      | No             | 8 Hours   |
+| Phishing (T1566) | 1.5 Hours     | 3 Hours      | Yes            | 4 Hours   |
+| Brute Force      | 2 Hours       | 5 Hours      | No             | 6 Hours   |
+
+---
+
+## Metrics Summary
+
+| METRIC               | VALUE     |
+|----------------------|----------|
+| MTTD                 | 2.16 Hours |
+| MTTR                 | 4.66 Hours |
+| False Positive Rate  | 33%        |
+| Dwell Time           | 6 Hours    |
+
+---
+
+## Metrics Analysis
+The calculated SOC metrics indicate a moderate level of operational efficiency. The Mean Time to Detect (MTTD) is 2.16 hours, showing that threats are identified within a reasonable timeframe. The Mean Time to Respond (MTTR) is 4.66 hours, reflecting the time taken to contain and remediate incidents. The false positive rate of 33% suggests that a portion of alerts require unnecessary investigation, indicating a need for improved alert tuning. The average dwell time of 6 hours highlights the duration attackers remain undetected, which can be reduced through enhanced monitoring and threat intelligence integration.
+
+---
+
+## Dwell Time Analysis 
+The dwell time analysis indicates that incidents remain undetected for an average of six hours. This duration exposes systems to potential risk and highlights the need for faster detection mechanisms. Improving alert correlation, real-time monitoring, and threat intelligence integration can significantly reduce dwell time and enhance overall SOC effectiveness.
+
+---
+
+## Executive Summary 
+The security metrics evaluation provides insight into the current performance of the Security Operations Center (SOC). The Mean Time to Detect (MTTD) of 2.16 hours indicates that threats are identified within a reasonable timeframe, while the Mean Time to Respond (MTTR) of 4.66 hours reflects moderate response efficiency. The false positive rate of 33 percent suggests that a significant portion of alerts require unnecessary investigation, which may impact analyst productivity. Additionally, the dwell time of 6 hours highlights the period during which threats remain undetected, posing potential risks to the organization. To improve SOC effectiveness, it is recommended to optimize detection rules, enhance alert correlation, and integrate threat intelligence sources. Implementing automation and response playbooks can further reduce response times and operational overhead. Continuous monitoring and regular evaluation of these metrics will support ongoing improvements in detection accuracy, response efficiency, and overall security posture.
+
