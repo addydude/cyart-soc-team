@@ -1,0 +1,44 @@
+# Evidence Analysis Lab Report
+
+**Objective**
+To analyze network connections and maintain chain-of-custody for digital evidence.
+
+**Skills Demonstrated**
+* Threat Hunting
+* Digital Forensics
+* Incident Analysis
+* Evidence Documentation
+
+**Tools Used**
+* Velociraptor
+* FTK Imager
+
+**Steps Performed**
+1. Collected system data from Windows VM.
+2. Executed `netstat` query using Velociraptor.
+3. Identified suspicious network connections.
+4. Documented findings.
+5. Maintained chain-of-custody.
+
+---
+
+## Key Findings & Evidence Analysis
+
+During the lab exercise, the following network anomalies were detected and flagged for further investigation:
+
+* **Lab Scenario Findings:** Suspicious connections to an external IP were noted, including activity on Port 4444, which is a common indicator of a possible reverse shell (e.g., Metasploit payload).
+* **Specific Target Analysis (`host.docker.internal`):** A review of the Velociraptor `Generic.Client.VQL` output revealed two specific anomalies requiring immediate process verification:
+    * **PID 6848 (LISTEN on 0.0.0.0:7070):** Highly suspicious depending on authorized software baselines. Port 7070 is commonly associated with AnyDesk for local discovery and tunneling. This could indicate an unauthorized Remote Access Trojan (RAT) or persistence mechanism.
+    * **PID 31408 (ESTABLISHED on 127.0.0.1:2176 <-> 127.0.0.1:8001):** Suspicious local-to-local communication tunnel. While occasionally used by legitimate development tools, this behavior frequently indicates local proxy tunneling (e.g., ngrok) or malware command-and-control (C2) routing.
+
+*(Note: Additional listening connections for PIDs 4, 1668, 5724, and 6648 on ports 139, 135, 5040, and 902/912 respectively were reviewed and assessed as expected standard Windows or VM services.)*
+
+---
+
+## Chain-of-Custody
+
+**Documented Evidence Collection:**
+
+| Item | Description | Collected By | Date | Hash Value (SHA-256) |
+| :--- | :--- | :--- | :--- | :--- |
+| Network Log | Window-VM Log | SOC Analyst |b7d393bb7dc79a216d1d4a6bf1425291500aa8ec4a6912e9f2690c798d21faa7 |

@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="Vf7gZLc19Kv9Jl_ECDMn">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="320" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Phishing Incident / User Clicked Malicious Link" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No advanced URL/link scanning" vertex="1">
+          <mxGeometry height="30" width="100" x="20" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Limited alert correlation" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Lack of phishing awareness" vertex="1">
+          <mxGeometry height="30" width="100" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="320" as="sourcePoint" />
+            <mxPoint x="480" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PROCESS" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ENVIRONMENT" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No regular phishing training" vertex="1">
+          <mxGeometry height="30" width="180" x="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No phishing simulation exercises" vertex="1">
+          <mxGeometry height="30" width="200" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Weak reporting procedure" vertex="1">
+          <mxGeometry height="30" width="200" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-10" edge="1" parent="1" source="cPbYzkJjQlSkkB5fImQB-9" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="264.5" as="sourcePoint" />
+            <mxPoint x="590" y="264.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-11" edge="1" parent="1" source="cPbYzkJjQlSkkB5fImQB-8" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="214.5" as="sourcePoint" />
+            <mxPoint x="550" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="154.5" as="sourcePoint" />
+            <mxPoint x="500" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="High email volume" vertex="1">
+          <mxGeometry height="30" width="170" x="332.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Time pressure" vertex="1">
+          <mxGeometry height="30" width="100" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Routine handling of external emails" vertex="1">
+          <mxGeometry height="30" width="195" x="320" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="425" as="sourcePoint" />
+            <mxPoint x="550" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="474.5" as="sourcePoint" />
+            <mxPoint x="510" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="364.5" as="sourcePoint" />
+            <mxPoint x="600" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170" y="364.5" as="sourcePoint" />
+            <mxPoint x="240" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <mxPoint x="200" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="475" as="sourcePoint" />
+            <mxPoint x="150" y="474.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PEOPLE" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TECHNOLOGY" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Weak email filtering" vertex="1">
+          <mxGeometry height="30" width="130" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="100" y="155" as="sourcePoint" />
+            <mxPoint x="140" y="154.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-37" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="120" y="214.5" as="sourcePoint" />
+            <mxPoint x="190" y="214.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-38" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="160" y="264.5" as="sourcePoint" />
+            <mxPoint x="230" y="264.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User trusted urgent email" vertex="1">
+          <mxGeometry height="30" width="110" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cPbYzkJjQlSkkB5fImQB-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sender identity not verified" vertex="1">
+          <mxGeometry height="30" width="120" x="40" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
