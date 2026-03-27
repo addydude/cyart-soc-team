@@ -1,0 +1,19 @@
+## Adversary Emulation Results
+
+| Timestamp            | Source IP        | Alert Description                                         | MITRE Technique |
+|---------------------|------------------|-----------------------------------------------------------|-----------------|
+| 2026-03-26 16:01:19 | 192.168.147.128 | Network port state change detected (netstat anomaly)      | T1210          |
+| 2026-03-26 16:19:40 | 192.168.147.128 | Authentication failure detected (password guessing)       | T1110          |
+| 2026-03-26 16:25:48 | 192.168.147.129 | Remote authentication failure observed                    | T1110          |
+| 2026-03-26 16:55:26 | 192.168.147.128 | Privileged session opened via sudo                        | T1078          |
+| 2026-03-26 16:55:26 | 192.168.147.128 | Successful privilege escalation to root                   | T1548          |
+| 2026-03-26 17:00:34 | 192.168.147.128 | Repeated privileged command execution detected            | T1548          |
+
+
+### Analysis
+
+The adversary emulation activity conducted using MITRE Caldera successfully generated observable system-level events on the monitored endpoint. The execution of simulated attack techniques resulted in multiple security alerts within Wazuh, including authentication failures, privilege escalation, and system-level changes.
+
+Although direct detection of remote service exploitation (T1210) was limited due to the absence of a host-based agent on the target system, correlated indicators such as abnormal port activity and suspicious authentication behavior provided sufficient evidence of malicious activity.
+
+The observed alerts demonstrate the SOC’s ability to detect and analyze attacker behavior through indirect indicators and log correlation. This highlights the importance of behavioral monitoring and layered detection strategies in constrained environments.

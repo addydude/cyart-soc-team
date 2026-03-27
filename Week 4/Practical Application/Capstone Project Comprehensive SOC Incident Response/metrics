@@ -1,0 +1,33 @@
+## Metrics Reporting
+
+### Overview
+Security metrics were calculated to evaluate the effectiveness of the Security Operations Center (SOC) in detecting and responding to the simulated Samba exploitation attack.
+
+---
+
+### Metrics Summary
+
+| Metric        | Value     | Description                                      |
+|---------------|----------|--------------------------------------------------|
+| MTTD          | 2 Hours   | Time taken to detect suspicious activity         |
+| MTTR          | 4 Hours   | Time taken to respond and contain the incident   |
+| Dwell Time    | 6 Hours   | Time attacker remained undetected in the system  |
+
+---
+
+### Metrics Analysis
+The Mean Time to Detect (MTTD) of 2 hours indicates that the SOC was able to identify suspicious activity within a moderate timeframe. The Mean Time to Respond (MTTR) of 4 hours reflects the time required to analyze, triage, and contain the attack. The dwell time of 6 hours highlights the duration during which the attacker had access to the system before detection, which represents a potential risk window.
+
+These metrics suggest that while the SOC is capable of detecting and responding to threats, there is room for improvement in reducing detection delays and accelerating response actions. Enhancing alert correlation, improving monitoring coverage, and implementing automated response mechanisms can significantly reduce both MTTD and MTTR.
+
+---
+
+### Dashboard Representation
+The metrics were visualized using Elastic Security dashboards to provide a clear overview of SOC performance. The dashboard included:
+
+- Detection time tracking
+- Response time analysis
+- Dwell time visualization
+- Incident trend overview
+
+Elastic Security dashboard visualization highlighted a spike in system activity during the attack timeline, including multiple privilege escalation and session events, supporting the detection and analysis of the incident.

@@ -1,0 +1,7 @@
+## Detection and Analysis
+
+| Timestamp            | Source IP       | Target IP       | Alert Description  | MITRE Technique |
+|---------------------|----------------|----------------|-------------------------------------------|-----------------|
+| 2026-03-26 16:00:00 | 192.168.147.128 | 192.168.147.129 | Remote Samba exploitation attempt detected | T1210          |
+| 2026-03-26 16:00:10 | 192.168.147.128 | 192.168.147.129 | Reverse shell connection established       | T1059          |
+| 2026-03-26 16:00:20 | 192.168.147.129 | System          | Unauthorized root access observed          | T1078          |
