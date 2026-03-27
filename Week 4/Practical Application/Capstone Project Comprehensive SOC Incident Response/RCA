@@ -1,0 +1,16 @@
+## Root Cause Analysis (5 Whys)
+
+1. Why was the system compromised?  
+→ Vulnerable Samba service was exploited  
+
+2. Why was Samba vulnerable?  
+→ Outdated version with known exploit  
+
+3. Why was it not updated?  
+→ Lack of patch management  
+
+4. Why was patching not enforced?  
+→ Weak security policies  
+
+5. Root Cause  
+→ Lack of vulnerability management and patching process
